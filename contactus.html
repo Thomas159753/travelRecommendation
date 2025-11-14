@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Travel Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="text-xl bg-black/50 text-white flex justify-between px-7">
+                <div>
+                    <span class="font-bold">Travel Page</span>
+                </div>
+                <div class="flex gap-3.5">
+                    <a href="./home">Home</a>
+                    <a href="./aboutus.html">About Us</a>
+                    <a href="./contact">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+<main class="text-xl flex justify-center items-center min-h-screen">
+    <div>
+        <form class="text-white text-center bg-black/50 p-6 rounded-xl space-y-4">
+            <div class="flex flex-col gap-2">
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                    required
+                    class="text-white px-2 py-1 rounded border border-white bg-transparent"
+                />
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                    class="text-white px-2 py-1 rounded border border-white bg-transparent"
+                />
+            </div>
+            <div class="flex flex-col gap-2">
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    required
+                    class="text-white px-2 py-1 rounded border border-white bg-transparent h-32"
+                ></textarea>
+            </div>
+        </form>
+    </div>
+</main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
